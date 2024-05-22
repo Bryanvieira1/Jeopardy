@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'JeopardyFont';
+  src: url('JP.ttf');
+}
+@font-face {
+  font-family: 'myfont';
+  src: url('JP1.ttf');
+}
+
+body {
+  margin-top: 200px;
+  padding: 0;
+  text-align: middle;
+  font-size: 70px;
+  font-family: 'JP1.ttf', sans-serif;
+  color: #FFD700;
+  background: linear-gradient(to bottom, #1818a5, #2c2cb5);
+}
+
+h1 {
+  color: #FFD700;
+  font-family: 'JeopardyFont', sans-serif;
+  font-size: 120px;
+  text-align: center;
+margin: 0 10px;
+ 
+}
+  h2{color: #FFD700;
+    font-family:'JP1.ttf',sans-serif;
+    font-size: 25px;
+    text-align: middle;
+    margin: 10px 0;  
+     
+  }
+
+h3{color: #FFD700;
+  font-family:'JP1.ttf',sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin: 10px 0;  
+   
+  }
+
+.btn, .menu-btn, .btn1 {
+  padding: 15px 30px;
+  font-size: 22px;
+  background-color: #1e00ff;
+  color: #fbff14;
+  border: none;
+  font-family: 'JeopardyFont', sans-serif;
+  cursor: pointer;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover, .menu-btn:hover, .btn1:hover {
+  background-color: #0e0080;
+  transform: scale(1.05);
+}
+
+.category-btn, .amount-btn {
+  padding: 30px 0;
+  font-size: 26px;
+  background-color: #2e35ff;
+  color: #FFD700;
+  border: 2px solid #FFD700;
+  font-family: 'JeopardyFont', sans-serif;
+  cursor: pointer;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.category-btn:hover{
+   background-color: #e34a4a;
+    transform: scale(1.05);
+  }
+ .amount-btn:hover {
+    background-color: #4ae385;
+     transform: scale(1.05);}
+ 
+
+#categories {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+}
+
+#teamDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#teamDisplay div {
+  margin: 0 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#start-screen, #instructions-screen, #game-screen, #question-screen, #answer-screen {
+  text-align: center;
+  margin: 10px;
+}
+
+#back-btn, #show-answer-btn, #back-to-game-btn, #team-btn {
+  margin-top: 20px;
+  background-color: #f44336;
+}
+
+#back-btn:hover, #show-answer-btn:hover, #back-to-game-btn:hover {
+  background-color: #d32f2f;
+}
+
+.menu {
+  padding: 20px 120px;
+  font-size: 24px;
+  background-color: #faf200;
+  color: #07078d;
+  border: none;
+  font-family: 'JeopardyFont', sans-serif;
+  cursor: pointer;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: none;
+  text-align: center;
+  width: fit-content;
+  position: flex;
+  right: 0;
+}
+
+.menu:hover {
+  background-color: #ffd700;
+  transform: scale(1.1);
+}
+
+.textbox {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #6065f0;
+  font-family: 'JeopardyFont', sans-serif;
+  cursor: pointer;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  width: 60%;
+}
+
+.textbox:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.createTeam {
+  background-color: blue;
+}
+
+.points {
+  position: absolute;
+  top: 0;
+left: 0;
+  font-size: 35px;
+}
+h4{
+  font-size: 30px;
+  font-weight: 0;
+  text-align: left;
+}
+h5{
+  font-size: 25px;
+  font-weight: 100;
+text-align: left;
+}
